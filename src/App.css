@@ -1,0 +1,258 @@
+body{
+  background-color: #d3d9a7;
+ background-image:url("https://www.transparenttextures.com/patterns/arabesque.png");
+ ;
+}
+h1{
+  text-align: center;
+}
+a{
+  margin: 10px;
+}
+.SocialProfile{
+  text-align: center;
+}
+hr{
+  border:10px dotted gray;
+  border-bottom: none;
+  width: 400px;
+ 
+}
+.name{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  color: rgb(24, 90, 222);
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+  margin-bottom: 0;
+ 
+  /* float: left; */
+  margin-top: 0px;
+}
+
+.profileHeader{
+  font-size: 20px;
+  margin-left: 50px;
+}
+h2{
+  text-align: center;
+  font-size: 17px;
+  margin-right: 50px;
+}
+b{
+  color: red;
+  margin-right: 50px;
+}
+nav{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  display: flex;
+  font-family: fantasy;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px ;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+/* .navigationBar{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  font-family: fantasy;
+  font-size: 20px;
+  height: 200px; 
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:100%;
+
+  padding: 50px;
+} */
+
+h3{
+  margin-left: 20px;
+  display: inline-block;
+}
+.skills{
+  border: 2px solid blue;
+  display: inline-block;
+  perspective: 1000px;
+  margin: 40px;
+  padding: 30px;
+  box-shadow: 5px 5px 15px 15px gray;
+}
+.skills:hover{
+  border: 4px solid blue;
+  margin: 20px;
+  padding: 40px;
+ 
+}
+.skillsImage{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.skillsContainer{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.skillsTitles{
+  background-color: #f0f0f0;
+  border: 1px solid blue;
+  padding: 10px;
+  color: blue;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 45px;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flip-card {
+  display: inline-block;
+  background-color: transparent;
+  box-shadow: 10px 20px 36px #FF7F50;
+  
+  margin: 20px;
+  width: 180px;
+  height: 220px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-radius: 12px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flip-card-front {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.flip-card-back {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #1E90FF;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+
+.education{
+
+  background-color: beige;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 62px;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 1px;
+  width: 380px;
+  height: 380px; 
+}
+.education:hover{
+  border: 4px solid blue;
+}
+.schoollogo{
+  border: 2px solid;
+  margin-left: 100px;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+.schoolContainer{
+  padding-bottom: 60px;
+  width: 375px;
+  height: 325px;
+}
+.schoolYear, .schooldetails{
+  margin-bottom: 0;
+}
+.schooldetails{
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 125px;
+  /* margin-left: 30px; */
+}
+.schoolYear{
+  font-size: 15px;
+  margin-right: 100px;
+  width: 300px;
+}
+.EducationContainer{
+  display: inline-block;
+}
+.profilepicture{
+  border: 3px solid white;
+  float: left;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin-left: 100px;
+}
+
+.aboutMeContainer{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  color: black(168, 195, 34);
+  border: 2px solid rgb(235, 235, 243);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 40px;
+  
+}
+.footer {
+  background: linear-gradient(270deg, #77FFD2, #6297DB, #1EECFF);
+  background-size: 600% 600%;
+  animation: gradientShift 10s ease infinite;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
