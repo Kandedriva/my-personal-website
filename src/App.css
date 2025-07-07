@@ -12,12 +12,12 @@ a{
 .SocialProfile{
   text-align: center;
 }
-hr{
+/* hr{
   border:10px dotted gray;
   border-bottom: none;
   width: 300px;
  
-}
+} */
 .name{
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   color: rgb(24, 90, 222);
