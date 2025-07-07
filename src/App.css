@@ -12,17 +12,16 @@ a{
 .SocialProfile{
   text-align: center;
 }
-/* hr{
+hr{
   border:10px dotted gray;
   border-bottom: none;
-  width: 300px;
  
-} */
+}
 .name{
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   color: rgb(24, 90, 222);
   text-align: center;
-  font-family: fantasy;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 40px;
   margin-bottom: 0;
  
@@ -102,8 +101,7 @@ h3{
   display: inline-block;
   background-color: transparent;
   box-shadow: 10px 20px 36px #FF7F50;
-  
-  margin: 20px;
+  margin: 10px;
   width: 180px;
   height: 220px;
   perspective: 1000px;
@@ -159,7 +157,6 @@ h3{
 
 
 .education{
-
   background-color: beige;
   border: 2px solid white;
   border-radius: 10px;
@@ -169,7 +166,7 @@ h3{
   display: inline-block;
   text-align: center;
   padding-bottom: 1px;
-  width: 380px;
+  width: 345px;
   height: 380px; 
 }
 .education:hover{
@@ -184,17 +181,15 @@ h3{
 }
 .schoolContainer{
   padding-bottom: 60px;
-  width: 375px;
+  width: 356px;
   height: 325px;
 }
 .schoolYear, .schooldetails{
   margin-bottom: 0;
 }
 .schooldetails{
-  /* border: 2px solid red; */
   width: 350px;
-  height: 125px;
-  /* margin-left: 30px; */
+  height: 120px;
 }
 .schoolYear{
   font-size: 15px;
