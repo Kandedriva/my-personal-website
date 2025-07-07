@@ -15,7 +15,7 @@ a{
 hr{
   border:10px dotted gray;
   border-bottom: none;
-  width: 400px;
+  width: 300px;
  
 }
 .name{
@@ -46,24 +46,13 @@ b{
 nav{
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   display: flex;
-  font-family: fantasy;
+  font-family:serif;
   justify-content: space-between;
   align-items: center;
   padding-left: 10px ;
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
-/* .navigationBar{
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-  font-family: fantasy;
-  font-size: 20px;
-  height: 200px; 
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size:100%;
-
-  padding: 50px;
-} */
 
 h3{
   margin-left: 20px;

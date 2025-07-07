@@ -2,7 +2,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components.js/Navbar';
-import Profession from './Components.js/Profession';
 import TechnicalSkills from './Components.js/TechnicalSkills';
 import Education from './Components.js/Education';
 import AboutMe from './Components.js/AboutMe';
@@ -21,7 +20,6 @@ function App() {
             path="/"
             element={
               <>
-                <Profession />
                 <TechnicalSkills />
                 <Education />
               </>
