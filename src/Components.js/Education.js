@@ -5,7 +5,7 @@ function Education(){
 
     return(
     <>
-    <h1 className="skillsTitle">EDUCATION</h1>
+    <h1 className="headto">EDUCATION</h1>
     <div className="education">
        <div className="schoolContainer">
        <h2>Borough of Manhattan Community College</h2>
@@ -32,14 +32,6 @@ function Education(){
 </p>
        </div>
     </div>
-   {/* <div className="EducationContainer">
-   
-   </div> */}
-{/* 
-   <div className="EducationContainer">
-   
-
-   </div> */}
    <div className="education">
        <div className="schoolContainer">
        <h2>Université Félix Houphouët-Boigny</h2>

@@ -6,7 +6,7 @@ function TechnicalSkills(){
     return(
         <>
             <div className="skillsContainer">
-            <h1 className="skillsTitle">Technical Skills</h1>
+            <h1 className="headto">Technical Skills</h1>
             <h2 className="skillsTitles">FrontEnd</h2>
             
 
