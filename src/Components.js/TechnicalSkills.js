@@ -10,7 +10,7 @@ function TechnicalSkills(){
             <h2 className="skillsTitles">FrontEnd</h2>
             
 
-  <div className="frontendSpot">
+  {/* <div className="frontendSpot"> */}
   <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
@@ -70,9 +70,9 @@ function TechnicalSkills(){
   </div>
 </div>
 </div>
-  </div>
+  {/* </div> */}
   <h2 className="skillsTitles ">Backend</h2>
-<div className="frontendSpot">
+{/* <div className="frontendSpot"> */}
 <div className="flip-card">
 
 <div className="flip-card-inner">
@@ -109,7 +109,7 @@ function TechnicalSkills(){
   </div>
 </div>
 </div>
-</div>
+{/* // </div> */}
             </div>
 
         </>
