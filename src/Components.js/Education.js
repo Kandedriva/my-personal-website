@@ -6,7 +6,6 @@ function Education(){
     return(
     <>
     <h1 className="skillsTitle">EDUCATION</h1>
-    <div className="EducationContainer">
     <div className="education">
        <div className="schoolContainer">
        <h2>Borough of Manhattan Community College</h2>
@@ -19,9 +18,10 @@ function Education(){
        </div>
   
     </div>
-    </div>
-   <div className="EducationContainer">
-   <div className="education">
+    {/* <div className="EducationContainer">
+    
+    </div> */}
+    <div className="education">
        <div className="schoolContainer">
        <h2>Flatiron School</h2>
        <img src="/images/Flatiron_School_logo.jpg" alt="Schoollogo" className="schoollogo"></img>
@@ -32,9 +32,15 @@ function Education(){
 </p>
        </div>
     </div>
-   </div>
+   {/* <div className="EducationContainer">
+   
+   </div> */}
+{/* 
+   <div className="EducationContainer">
+   
 
-    <div className="education">
+   </div> */}
+   <div className="education">
        <div className="schoolContainer">
        <h2>Université Félix Houphouët-Boigny</h2>
        <img src="/images/UFHB.png" alt="Schoollogo" className="schoollogo"></img>
@@ -45,6 +51,8 @@ function Education(){
 </p>
        </div>
     </div>
+
+   
    
 
     </>
