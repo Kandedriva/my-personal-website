@@ -8,7 +8,6 @@ h1{
   text-align: center;
 }
 .parag{
-  border: 2px solid red;
   width: 340px;
 }
 a{
@@ -187,14 +186,13 @@ h3{
 }
 .schoolContainer{
   padding-bottom: 60px;
-  width: 356px;
+  width: 340px;
   height: 325px;
 }
 .schoolYear, .schooldetails{
   margin-bottom: 0;
 }
 .schooldetails{
-  border: 2px solid red;
   width: 340px;
   height: 100px;
 }
@@ -203,11 +201,11 @@ h3{
   margin-right: 100px;
   width: 300px;
 }
-.EducationContainer{
+/* .EducationContainer{
 
   border: 2px solid red;
   display: inline-block;
-}
+} */
 .profilepicture{
   border: 3px solid white;
   float: left;
