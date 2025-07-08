@@ -27,7 +27,7 @@ function TechnicalSkills(){
 <div className="flip-card-inner">
   <div className="flip-card-front">
   <h4>CSS</h4>
-    <img src="/images/732190.png" alt="Avatar"  className=""/>
+    <img src="/images/732190.png" alt="Avatar"/>
   </div>
   <div className="flip-card-back">
    <p>Styles your webpage. CSS controls layout, colors, fonts, and responsiveness.</p>
@@ -111,7 +111,7 @@ function TechnicalSkills(){
 </div>
 </div>
             </div>
-            <hr></hr>
+
         </>
     )
 }

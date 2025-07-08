@@ -18,10 +18,7 @@ hr{
   border-bottom: none;
  
 }
-.headto{
-  width: 400px;
-  border: 2px solid red;
-}
+
 .name{
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   color: rgb(24, 90, 222);
@@ -140,6 +137,7 @@ h3{
   padding: 10px;
   box-sizing: border-box;
 }
+
 
 .flip-card-front {
   background-color: #f0f0f0;
