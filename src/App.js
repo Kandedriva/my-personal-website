@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components.js/Navbar';
 import TechnicalSkills from './Components.js/TechnicalSkills';
-// import Education from './Components.js/Education';
+import Education from './Components.js/Education';
 import AboutMe from './Components.js/AboutMe';
 import Footer from './Components.js/Footer';
 
@@ -21,7 +21,7 @@ function App() {
             element={
               <>
                 <TechnicalSkills />
-                {/* <Education /> */}
+                <Education />
               </>
             }
           />

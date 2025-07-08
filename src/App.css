@@ -166,12 +166,12 @@ h3{
   border: 2px solid white;
   border-radius: 10px;
   margin-bottom: 20px;
-  margin-left: 62px;
+  margin: 10px;
   text-align: center;
   display: inline-block;
   text-align: center;
   padding-bottom: 1px;
-  width: 345px;
+  /* width: 345px; */
   height: 380px; 
 }
 .education:hover{
