@@ -26,7 +26,8 @@ function Navbar(){
      <div>
      <Link to="/">Home</Link>
      <Link to="/about">👤 About me</Link>
-    
+     <Link to="/experience">💼 Experience</Link>
+     <Link to="/projects">🚀 Projects</Link>
        
         <a href="mailto:drissakande@gmail.com">📩 Email me</a>
      </div>

@@ -5,6 +5,8 @@ import Navbar from './Components.js/Navbar';
 import TechnicalSkills from './Components.js/TechnicalSkills';
 import Education from './Components.js/Education';
 import AboutMe from './Components.js/AboutMe';
+import Experience from './Components.js/Experience';
+import Projects from './Components.js/Projects';
 import Footer from './Components.js/Footer';
 
 
@@ -26,6 +28,8 @@ function App() {
             }
           />
           <Route path="/about" element={<AboutMe />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
 
         <Footer />
