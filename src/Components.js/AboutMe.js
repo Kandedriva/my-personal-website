@@ -39,7 +39,6 @@ function AboutMe(){
   </p>
 
   <p>
-    🛍️ <a href="https://j5cjdt-ae.myshopify.com/">Shop with me</a><br />
     📩 Need a store? Contact me or send a message on social media.
   </p>
 
